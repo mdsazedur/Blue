@@ -1,0 +1,45 @@
+
+header{
+	background-color: #121B2A;
+}
+.wrapper{
+	overflow: hidden;
+	margin: 0  auto;
+	width: 80%;
+}
+.logo{
+	width: 18%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	margin-top: 30px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 17px;
+	display: inline-block;
+	transition: .4s;
+}
+.menu ul li a:hover{
+	color: #0172B4;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
